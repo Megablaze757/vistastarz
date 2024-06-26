@@ -1,0 +1,110 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    /* White background */
+    color: #333;
+    /* Dark gray text */
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h2,
+h3 {
+    color: #333;
+    /* Dark gray headings */
+}
+
+p {
+    color: #666;
+    /* Medium gray text */
+    font-size: 16px;
+    /* Regular font size for paragraphs */
+}
+
+.btn-outline-primary {
+    color: #ff69b4;
+    /* Pink color for button text */
+    border: 2px solid #ff69b4;
+    /* Pink border */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #ff69b4;
+    /* Pink background on hover */
+    color: #fff;
+    /* White text on hover */
+}
+
+/* Services Carousel */
+#services-carousel .carousel-item {
+    text-align: center;
+}
+
+#services-carousel .carousel-item img {
+    max-height: 300px;
+    /* Adjust maximum height of service images */
+    object-fit: cover;
+    /* Maintain aspect ratio */
+}
+
+#services-carousel .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#services-carousel .card-body {
+    padding: 20px;
+}
+
+#services-carousel .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#services-carousel .card-text {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+/* Comparisons Table */
+#comparisons {
+    background-color: #fff;
+    /* White background */
+    padding: 50px 0;
+    text-align: center;
+}
+
+#comparisons h2 {
+    color: #333;
+    /* Dark gray heading */
+    margin-bottom: 20px;
+}
+
+#comparisons table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#comparisons table th,
+#comparisons table td {
+    padding: 10px;
+    border: 1px solid #000000;
+    /* Light gray border */
+}
+
+#comparisons table th {
+    background-color: #f0f0f0;
+    /* Light off-white background for table header */
+}
