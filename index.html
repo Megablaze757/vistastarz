@@ -131,6 +131,76 @@
                     background-color: var(--light-gold);
                     color: var(--dark-gold);
                 }
+                .card-section {
+    padding: 50px 0;
+    background-color: #f0f0f0;
+    /* Light gray background */
+    text-align: center;
+
+    .container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .card {
+        width: calc(33.33% - 20px);
+        background-color: #fff;
+        padding: 20px;
+        margin-bottom: 30px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+        @media (max-width: 768px) {
+            width: calc(50% - 20px);
+        }
+
+        @media (max-width: 480px) {
+            width: calc(100% - 20px);
+        }
+
+        h3 {
+            font-size: 1.5rem;
+            margin-bottom: 10px;
+            color: palevioletred;
+        }
+
+        p {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .card-icon {
+            width: 50px;
+            height: 50px;
+            background-color: #ff69b4;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto 15px;
+            font-size: 1.5rem;
+            color: #fff;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ff69b4;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease, color 0.3s ease;
+
+            &:hover {
+                background-color: #ffd700;
+            }
+        }
+    }
+}
             </style>
         </noscript>
     </head>
